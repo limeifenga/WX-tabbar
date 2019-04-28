@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+
+
+  <button bindtap='setMenu' >设置菜单</button>
+</view>
+
+
+
+<import src="../../template/template.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>

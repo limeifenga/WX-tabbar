@@ -1,0 +1,5 @@
+<!--pages/news2/news2.wxml-->
+<text>pages/news2/news2.wxml</text>
+<import src="../../template/template.wxml"/>
+  <button bindtap='setMenu' >设置菜单</button>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>

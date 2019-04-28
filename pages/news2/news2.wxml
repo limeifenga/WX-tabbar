@@ -1,0 +1,4 @@
+<!--pages/news2/news2.wxml-->
+<text>pages/news2/news2.wxml</text>
+<import src="../../template/template.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
